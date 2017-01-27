@@ -1,86 +1,92 @@
 .navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
 }
 .navbar li {
-  color: #fff;
+    color: #fff;
 }
 
 a {
     color: white;
 }
 .vs100 {
-  height: 100px;
+    height: 100px;
 }
 
 
 .travel {
-  background-image: url("../img/sunset-1645105_1920.jpg");
-  height: 500px;
-  background-position: center bottom;
+    background-image: url("../img/sunset-1645105_1920.jpg");
+    height: 500px;
+    background-position: center bottom;
 }
 .culture {
-  background-image: url("../img/korea-1922376_1920.jpg");
-  height: 500px;
-  background-position: left 70%;
-  background-repeat: no-repeat;
+    background-image: url("../img/korea-1922376_1920.jpg");
+    height: 500px;
+    background-position: left 70%;
+    background-repeat: no-repeat;
 }
 .food {
-  background-image: url("../img/namdaemun-market-326146_1920.jpg");
-  height: 500px;
-  background-position: center center;
-  background-repeat: no-repeat;
+    background-image: url("../img/namdaemun-market-326146_1920.jpg");
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .sundries {
-  background-image: url("../img/japan-217882_1920.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+    background-image: url("../img/japan-217882_1920.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .table-text {
-  color: white;
-  text-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .outer-table {
-  display: table;
-  width: 100%;
+    display: table;
+    width: 100%;
 }
 .inner-table {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 h1:after {
-  content: '';
-  display: block;
-  background: white;
-  height: 2px;
-  max-width: 150px;
-  width: 100%;
-  margin: 0 auto;
+    content: '';
+    display: block;
+    background: white;
+    height: 2px;
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
 }
 .text-black {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 .culture h1:after{
-  content: '';
-  display: block;
-  background: white;
-  height: 2px;
-  max-width: 300px;
-  width: 100%;
-  margin: 0 auto;
+    content: '';
+    display: block;
+    background: white;
+    height: 2px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .linebreak {
-  content: '';
-  display: block;
-  background: white;
-  height: 2px;
-  max-width: 80%;
-  margin: 0 auto;
+    content: '';
+    display: block;
+    background: white;
+    height: 2px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.bg-opaque-red {
+    background: rgba(128, 0, 0, 0.3);
+}
+.bg-opaque-bl {
+    background: rgba(0, 0, 0, 0.3);
 }
