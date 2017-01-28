@@ -90,8 +90,10 @@ h1:after {
     margin: 0 auto;
 }
 .bg-opaque-red {
+    background: rgb(128, 0, 0);
     background: rgba(128, 0, 0, 0.3);
 }
 .bg-opaque-bl {
+    background: rgb(0,0,0);
     background: rgba(0, 0, 0, 0.5);
 }
