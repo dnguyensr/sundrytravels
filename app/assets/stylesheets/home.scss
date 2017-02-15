@@ -16,28 +16,28 @@ a {
 
 
 .travel {
-    background-image: url("../img/sunset-1645105_1920.jpg");
+    background-image: image-url("sunset-1645105_1920.jpg");
     height: 500px;
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
 .culture {
-    background-image: url("../img/korea-1922376_1920.jpg");
+    background-image: image-url("korea-1922376_1920.jpg");
     height: 500px;
     background-size: cover;
     background-position: left 70%;
     background-repeat: no-repeat;
 }
 .food {
-    background-image: url("../img/namdaemun-market-326146_1920.jpg");
+    background-image: image-url("namdaemun-market-326146_1920.jpg");
     height: 500px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .sundries {
-    background-image: url("../img/japan-217882_1920.jpg");
+    background-image: image-url("japan-217882_1920.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
