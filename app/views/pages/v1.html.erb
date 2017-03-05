@@ -2,13 +2,13 @@
 <div class="container-fluid travel">
   <div class="row">
     <ul class="navbar-brand">
-      <li class="active"><a href="#">Sundry Travels</a></li>
+      <li class="active"><%= link_to 'Sundry Travels', root_path %></li>
     </ul>
     <ul class="nav navbar nav-pills pull-right">
-      <li><a href="#">Destinations</a></li>
-      <li><a href="#">Editor's Picks</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><%= link_to 'Destinations', destinations_page_path %></li>
+      <li><%= link_to "Editor's Picks", editorpicks_page_path %></li>
+      <li><%= link_to 'About', about_page_path %></li>
+      <li><%= link_to 'Contact', contact_page_path %></li>
     </ul>
   </div>
   <div class="vs100 text-center table-text"></div>
