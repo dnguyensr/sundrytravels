@@ -11,4 +11,6 @@ class PagesController < ApplicationController
   def editorpicks; end
 
   def destinations; end
+
+  def korea; end
 end
