@@ -1,66 +1,59 @@
 
-<div class="container-fluid travel">
+<div class="container-fluid travel-v2">
   <div class="row">
     <ul class="navbar-brand">
-      <li class="active"><%= link_to 'Sundry Travels', root_path %></li>
+      <li><%= link_to 'Sundry Travels', root_path %></li>
     </ul>
-    <ul class="nav navbar nav-pills pull-right">
+    <ul class="nav navbar-inverse nav-pills">
       <li><%= link_to 'Destinations', destinations_page_path %></li>
       <li><%= link_to "Editor's Picks", editorpicks_page_path %></li>
       <li><%= link_to 'About', about_page_path %></li>
       <li><%= link_to 'Contact', contact_page_path %></li>
     </ul>
   </div>
-  <div class="vs100 text-center table-text"></div>
-  <h1 class="text-center table-text">Arriving Soon</h1>
-  <h3 class="text-center table-text">Your guide to travel destinations in Asia</h3>
-</div>
-<div class="container-fluid outer-table culture">
-  <div class="inner-table table-text">
-    <h1>Landmarks rich in culture and history</h1>
-  </div>
-</div>
-<div class="container-fluid outer-table food">
-  <div class="inner-table table-text">
-    <h1><span class="bg-opaque-bl">Local foods</span></h1>
-    <h3><span class="bg-opaque-bl">including street foods and national dishes</span></h3>
-  </div>
-</div>
+  <div class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
 
-<div class="container-fluid sundries">
-  <div class="text-center table-text">
-    <h1><span class="bg-opaque-bl">Sundries</span></h1>
-    <h2><span class="bg-opaque-bl">Music</span></h2>
-    <h2><span class="bg-opaque-bl">Shopping</span></h2>
-    <h2><span class="bg-opaque-bl">Experiences</span></h2>
-  </div>
-  <div class="linebreak"></div>
-  <div class="container text-black">
-    <div class="row">
-      <div class="col-xs-6 col-sm-2 col-sm-offset-2 bg-opaque-red">
-        <h4>Destinations</h4>
-        <div>Japan</div>
-        <div>Singapore</div>
-        <div>South Korea</div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" style="background-image:url('assets/sunset-1645105_1920.jpg')">
+          <div class="carousel-caption">
+            Sunset
+          </div>
+        </div>
+        <div class="item" style="background-image:url('assets/korea-1922376_1920.jpg')">
+          <div class="carousel-caption">
+            Korea
+          </div>
+        </div>
+        <div class="item" style="background-image:url('assets/namdaemun-market-326146_1920.jpg')">
+          <div class="carousel-caption">
+            Korea
+          </div>
+        </div>
+        <div class="item" style="background-image:url('assets/japan-217882_1920.jpg')">
+          <div class="carousel-caption">
+            Japan
+          </div>
+        </div>
       </div>
-      <div class="col-xs-6 col-sm-2 bg-opaque-red">
-        <h4>Editor's Picks</h4>
-        <div>Food</div>
-        <div>Landmarks</div>
-        <div>Music</div>
-      </div>
-      <div class="col-xs-6 col-sm-2 bg-opaque-red">
-        <h4>About</h4>
-        <div>Contact Us</div>
-        <div>Blog</div>
-        <div>FAQ</div>
-      </div>
-      <div class="col-xs-6 col-sm-2 bg-opaque-red">
-        <h4>More</h4>
-        <div>Terms & Conditions</div>
-        <div>Privacy</div>
-        <div>Security</div>
-      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
 </div>

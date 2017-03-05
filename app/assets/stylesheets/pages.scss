@@ -1,20 +1,31 @@
-.navbar {
+.travel .navbar {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
 }
-.navbar li {
+.travel .navbar li {
     color: #fff;
 }
 
 a {
     color: white;
 }
+.travel-2 a {
+    color: black;
+}
+.travel-v2 .navpiills ul li {
+  width: 20%;
+}
 .vs100 {
     height: 100px;
 }
-
-
+/* Carousel */
+.item{
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+/* Background images */
 .travel {
     background-image: image-url("sunset-1645105_1920.jpg");
     height: 500px;
